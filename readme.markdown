@@ -49,6 +49,8 @@ For development purposes run it as so:
 
     python app.py
 
+Otherwise it an be run using Apache.
+
 ### Browser Configuration Files
 
 The browser reads its configuration information from two places.
@@ -64,7 +66,7 @@ the second is not. At a minimum set these two keys:
 
 For more information see [Flask Configuration](http://flask.pocoo.org/docs/0.12/config/).
 
-The single test password is written from `instance.password.txt`.
+The single test password is written from `instance/password.txt`.
 
 **Note**: This application does not currently support multiple users, and
 the one hard-coded user "admin" has a hard-coded test password specified above.
