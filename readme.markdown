@@ -47,7 +47,7 @@ First set the configuration options (see below).
 
 For development purposes run it as so:
 
-    python app.py
+    make run
 
 Otherwise it an be run using Apache.
 
@@ -70,3 +70,9 @@ The single test password is written from `instance/password.txt`.
 
 **Note**: This application does not currently support multiple users, and
 the one hard-coded user "admin" has a hard-coded test password specified above.
+
+# Deploying to the server.
+
+    make deploy
+    ssh <server>
+    sudo apachectl restart
